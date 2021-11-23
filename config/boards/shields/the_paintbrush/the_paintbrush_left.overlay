@@ -46,6 +46,6 @@
 		com-invdir;
 		com-sequential;
 		prechargep = <0x22>;
-		int-delay = <128>;
+		init-delay = <128>;
 	};
 };
