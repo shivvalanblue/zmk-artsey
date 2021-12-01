@@ -27,5 +27,11 @@
 #define MIDDLE_NONES NONE(0, 0, 0)
 #define TRAILING_NONES NONE(0, 0, 0)
 
+
+ // Enable OLED
+ &pro_micro_i2c {
+ 	status = "okay";
+ };
+
 // Include main artsey.io keymap
 #include "../../../artsey.dtsi"
